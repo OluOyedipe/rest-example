@@ -9,4 +9,4 @@ inputs:
 
 run:
   path: source-code/gradlew
-  args: [clean build]
+  args: [build]
