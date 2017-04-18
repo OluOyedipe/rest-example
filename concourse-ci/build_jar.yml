@@ -8,5 +8,4 @@ inputs:
 - name: source-code
 
 run:
-  path: source-code/gradlew
-  args: [build]
+  path: source-code/concourse-ci/build_jar.sh
