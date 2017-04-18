@@ -5,5 +5,5 @@ image_resource:
   source: {repository: ubuntu, tag: "14.04"}
 
 run:
-  path: ./gradlew
+  path: source-code/gradlew
   args: [clean build]

@@ -1,0 +1,15 @@
+---
+resources:
+- name: source-code
+  type: git
+  source:
+    uri: https://github.com/OluOyedipe/rest-example.git
+
+jobs:
+- name: build-jar
+  public: true
+  plan:
+  - get: source-code
+    trigger: true
+  - task: build-jar
+    file: source-code/build_jar.yml
